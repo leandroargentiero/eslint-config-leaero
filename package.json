@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "Shareable ESLint and Prettier config from Leandro Argentiero",
   "main": "index.js",
-  "repository": "https://github.com/leandroargentiero/eslint-config-leaero",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leandroargentiero/eslint-config-leaero.git"
+  },
   "author": "Leandro Argentiero <ciao@leandroargentiero.com>",
   "license": "MIT",
   "keywords": [
