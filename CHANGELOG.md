@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Repository url
+
+## [1.0.0] - 19/02/2023
+
 ### Added
 
 - Eslint rules
