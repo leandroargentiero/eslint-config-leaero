@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-leaero",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shareable ESLint and Prettier config from Leandro Argentiero",
   "main": "index.js",
   "repository": {
