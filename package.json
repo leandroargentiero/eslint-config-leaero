@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git@github.com:leandroargentiero/eslint-config-leaero.git"
   },
+  "scripts": {
+    "verdaccio:login": "npm login --registry http://localhost:4873",
+    "verdaccio:unpublish": "npm unpublish --force --registry http://localhost:4873/",
+    "verdaccio:publish": "npm publish --registry http://localhost:4873/",
+    "publish:local": "npm run verdaccio:unpublish && npm run verdaccio:publish"
+  },
   "author": "Leandro Argentiero <ciao@leandroargentiero.com>",
   "license": "MIT",
   "keywords": [
@@ -37,6 +43,6 @@
   },
   "peerDependencies": {
     "eslint": "^8.34.0",
-    "prettier": "^2.8.4"
+    "prettier": "^3.0.0"
   }
 }
