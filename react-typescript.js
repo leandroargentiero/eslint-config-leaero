@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./react', './typescript'],
+  extends: ['./react', './typescript', 'airbnb-typescript', 'plugin:prettier/recommended'],
   rules: {
     'import/extensions': [
       'error',
